@@ -1,0 +1,18 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            // "args": ["--config-file", "../configs/DPText_DETR/TotalText/R_50_poly.yaml", "--num-gpus", "4"]
+            "args": ["--config-file","./configs/DPText_DETR/TotalText/R_50_poly.yaml","--input","/home/min/python/dptext-detr/test/input/","--output","/home/min/python/dptext-detr/test/output/"]
+        }
+    ]
+}
